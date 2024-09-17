@@ -1,7 +1,14 @@
+[[bin]]
+name = "icelis"
+path = "icelis/main.rs"
+
 [package]
 name = "icelis"
 version = "0.1.0"
 edition = "2021"
 
+
 [dependencies]
-wgpu = "22.1.0"
+winit = "0.28"
+pixels = "0.11"
+rusttype = "0.9"
